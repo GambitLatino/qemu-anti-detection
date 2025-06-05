@@ -122,24 +122,7 @@ Insert YOUR virtual machine's uuid.
     <suspend-to-mem enabled="no"/>
     <suspend-to-disk enabled="no"/>
   </pm>
-  <qemu:commandline>
-    <qemu:arg value="-smbios"/>
-    <qemu:arg value="type=0,version=UX305UA.201"/>
-    <qemu:arg value="-smbios"/>
-    <qemu:arg value="type=1,manufacturer=ASUS,product=UX305UA,version=2021.1"/>
-    <qemu:arg value="-smbios"/>
-    <qemu:arg value="type=2,manufacturer=Intel,version=2021.5,product=Intel i9-12900K"/>
-    <qemu:arg value="-smbios"/>
-    <qemu:arg value="type=3,manufacturer=XBZJ"/>
-    <qemu:arg value="-smbios"/>
-    <qemu:arg value="type=17,manufacturer=KINGSTON,loc_pfx=DDR5,speed=4800,serial=000000,part=0000"/>
-    <qemu:arg value="-smbios"/>
-    <qemu:arg value="type=4,manufacturer=Intel,max-speed=4800,current-speed=4800"/>
-    <qemu:arg value="-cpu"/>
-    <qemu:arg value="host,family=6,model=158,stepping=2,model_id=Intel(R) Core(TM) i9-12900K CPU @ 2.60GHz,vmware-cpuid-freq=false,enforce=false,host-phys-bits=true,hypervisor=off"/>
-    <qemu:arg value="-machine"/>
-    <qemu:arg value="q35,kernel_irqchip=on"/>
-  </qemu:commandline>
+ GambitLatino/qemu-anti-detection
 </domain>
 ```
 ![Screenshot_20220819_230305](https://user-images.githubusercontent.com/63996691/185649897-b7609626-ee6d-42b1-bc5e-4465cb41a19a.png)
