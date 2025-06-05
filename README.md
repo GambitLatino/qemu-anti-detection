@@ -122,7 +122,24 @@ Insert YOUR virtual machine's uuid.
     <suspend-to-mem enabled="no"/>
     <suspend-to-disk enabled="no"/>
   </pm>
- GambitLatino/qemu-anti-detection
+   </<qemu:commandline>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=0,version=UX305UA.201"/>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=1,manufacturer=ASUS,product=UX305UA,version=2021.1"/>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=2,manufacturer=AMD,version=2021.5,product=AMD Ryzen 5 7600X"/>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=3,manufacturer=XBZJ"/>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=17,manufacturer=KINGSTON,loc_pfx=DDR5,speed=6000,serial=000000,part=0000"/>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=4,manufacturer=AMD,max-speed=6000,current-speed=6000"/>
+    <qemu:arg value="-cpu"/>
+    <qemu:arg value="host,family=25,model=97,stepping=2,model_id=AMD Ryzen 5 7600X 6-Core Processor,vmware-cpuid-freq=false,enforce=false,host-phys-bits=true,hypervisor=off"/>
+    <qemu:arg value="-machine"/>
+    <qemu:arg value="q35,kernel_irqchip=on"/>
+</qemu:commandline>
 </domain>
 ```
 ![Screenshot_20220819_230305](https://user-images.githubusercontent.com/63996691/185649897-b7609626-ee6d-42b1-bc5e-4465cb41a19a.png)
