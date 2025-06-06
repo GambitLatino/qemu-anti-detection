@@ -122,7 +122,7 @@ Insert YOUR virtual machine's uuid.
     <suspend-to-mem enabled="no"/>
     <suspend-to-disk enabled="no"/>
   </pm>
-   </<qemu:commandline>
+   <qemu:commandline>
     <qemu:arg value="-smbios"/>
     <qemu:arg value="type=0,version=UX305UA.201"/>
     <qemu:arg value="-smbios"/>
